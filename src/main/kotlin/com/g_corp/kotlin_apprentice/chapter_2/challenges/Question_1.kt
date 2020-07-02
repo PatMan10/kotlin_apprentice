@@ -6,5 +6,7 @@ fun main(args: Array<String>) {
     exercisesSolved++ // Q_1
     exercisesSolved++ // Q_2
     exercisesSolved++ // Q_3
+    exercisesSolved++ // Q_4
+    exercisesSolved++ // Q_5
     println("solved $exercisesSolved of $exercises exercises")
 }

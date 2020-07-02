@@ -1,5 +1,11 @@
 package com.g_corp.kotlin_apprentice.chapter_2.challenges
 
 fun main(args: Array<String>) {
-    println("Challenge Question")
+    val a: Double = 22.22
+    val b: Double = 69.69
+    val count: Int = 2
+    val sum: Double = a + b
+    val average: Double = (sum) / 2
+    println("$a + $b = $sum")
+    println("$sum / $count = $average")
 }
