@@ -9,5 +9,8 @@ fun main(args: Array<String>) {
     exercisesSolved++ // Q_4
     exercisesSolved++ // Q_5
     exercisesSolved++ // Q_6
+    exercisesSolved++ // Q_7
+    exercisesSolved++ // Q_8
+    exercisesSolved++ // Q_9
     println("solved $exercisesSolved of $exercises exercises")
 }
