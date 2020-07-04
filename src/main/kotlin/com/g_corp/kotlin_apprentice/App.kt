@@ -5,12 +5,5 @@ import kotlin.math.*
 const val CONSTANT = 69
 
 fun main(args: Array<String>) {
-    val integer: Int = 2.0.toInt()
-    val string =
-        """
-    Eat
-    Ass
-    Nigga..
-    """
-    println(string)
+    println("Hello, world! :)")
 }
