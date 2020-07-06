@@ -1,4 +1,4 @@
-package com.g_corp.kotlin_apprentice.chapter_3.mini_exercises.type_conversion
+package com.g_corp.kotlin_apprentice.chapter_03.mini_exercises.type_conversion
 
 fun main(args: Array<String>) {
     val age1 = 20

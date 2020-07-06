@@ -1,4 +1,4 @@
-package com.g_corp.kotlin_apprentice.chapter_3.mini_exercises.strings
+package com.g_corp.kotlin_apprentice.chapter_03.mini_exercises.strings
 
 fun main(args: Array<String>) {
     val firstName = "Patrick"
