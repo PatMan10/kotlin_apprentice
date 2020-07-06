@@ -1,4 +1,4 @@
-package com.g_corp.kotlin_apprentice.chapter_4.challenges
+package com.g_corp.kotlin_apprentice.chapter_04.challenges
 
 fun main(args: Array<String>) {
     val answer1 = true && true // true

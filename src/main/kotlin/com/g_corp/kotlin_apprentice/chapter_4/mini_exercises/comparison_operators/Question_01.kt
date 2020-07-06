@@ -1,4 +1,4 @@
-package com.g_corp.kotlin_apprentice.chapter_4.mini_exercises.comparison_operators
+package com.g_corp.kotlin_apprentice.chapter_04.mini_exercises.comparison_operators
 
 fun main(args: Array<String>) {
     val myAge = 24

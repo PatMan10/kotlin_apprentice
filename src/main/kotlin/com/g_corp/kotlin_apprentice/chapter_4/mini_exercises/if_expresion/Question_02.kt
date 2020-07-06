@@ -1,4 +1,4 @@
-package com.g_corp.kotlin_apprentice.chapter_4.mini_exercises.if_expresion
+package com.g_corp.kotlin_apprentice.chapter_04.mini_exercises.if_expresion
 
 fun main(args: Array<String>) {
     val myAge = 24
