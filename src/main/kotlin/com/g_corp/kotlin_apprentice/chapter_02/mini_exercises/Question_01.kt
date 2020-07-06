@@ -1,4 +1,4 @@
-package com.g_corp.kotlin_apprentice.chapter_2.mini_exercises
+package com.g_corp.kotlin_apprentice.chapter_02.mini_exercises
 
 const val satansAge: Int = 2020
 
