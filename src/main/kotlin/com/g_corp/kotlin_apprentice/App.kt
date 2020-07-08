@@ -1,9 +1,10 @@
 package com.g_corp.kotlin_apprentice
 
-import kotlin.math.*
-
-const val CONSTANT = 69
-
 fun main(args: Array<String>) {
-    println("Hello, world! :)")
+    println("App Running")
+
+    val list = mutableListOf('a', 'b', 'c')
+    list -= 'c'
+    for ((i, c) in list.withIndex())
+        println("i = $i c = $c")
 }
