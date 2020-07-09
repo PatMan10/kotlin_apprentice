@@ -1,14 +1,6 @@
-package com.g_corp.kotlin_apprentice
+package com.g_corp.kotlin_apprentice.chapter_09.mini_exercises
 
 fun main(args: Array<String>) {
-    println("App Running")
-
-    var yearOfBirth: Map<String, Int> = mapOf("Patrick" to 1995, "Faith" to 2006)
-    println(yearOfBirth)
-    for (key in yearOfBirth.keys)
-        println("$key = ${yearOfBirth.get(key)}")
-    println()
-
     var namesAndScores: MutableMap<String, Int> =
         mutableMapOf(
             "Anna" to 2,
@@ -20,10 +12,16 @@ fun main(args: Array<String>) {
     namesAndScores.set("Anna", 100)
     namesAndScores.set("Donna", Int.MIN_VALUE)
     namesAndScores["Zoro"] = 101
-    println(namesAndScores.plus("Bobby" to 10))
-    println(namesAndScores.minus("Anna"))
 
     println(namesAndScores)
     for (key in namesAndScores.keys)
-        println("$key = ${namesAndScores[key]}")
+        printScore(key, namesAndScores)
+}
+
+fun printScore(name: String, players: MutableMap<String, Int>) {
+    val score = players[name]
+    if (score != null)
+        println("$name has scored $score")
+    else
+        println("$name is not in the game")
 }
