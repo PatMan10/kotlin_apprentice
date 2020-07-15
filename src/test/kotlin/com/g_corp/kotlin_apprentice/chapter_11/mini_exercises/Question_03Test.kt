@@ -1,8 +1,8 @@
 package com.g_corp.kotlin_apprentice.chapter_11.mini_exercises
 
-import com.g_corp.kotlin_apprentice.chapter_11.models.FullName
-import com.g_corp.kotlin_apprentice.chapter_11.models.Grade
-import com.g_corp.kotlin_apprentice.chapter_11.models.Student
+import com.g_corp.kotlin_apprentice.chapter_11.mini_exercises.models.FullName
+import com.g_corp.kotlin_apprentice.chapter_11.mini_exercises.models.Grade
+import com.g_corp.kotlin_apprentice.chapter_11.mini_exercises.models.Student
 import org.junit.Assert
 import org.junit.Test
 

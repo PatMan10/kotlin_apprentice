@@ -1,7 +1,7 @@
 package com.g_corp.kotlin_apprentice.chapter_11.mini_exercises
 
-import com.g_corp.kotlin_apprentice.chapter_11.models.FullName
-import com.g_corp.kotlin_apprentice.chapter_11.models.Person
+import com.g_corp.kotlin_apprentice.chapter_11.mini_exercises.models.FullName
+import com.g_corp.kotlin_apprentice.chapter_11.mini_exercises.models.Person
 import org.junit.Assert
 import org.junit.Test
 import java.util.Random

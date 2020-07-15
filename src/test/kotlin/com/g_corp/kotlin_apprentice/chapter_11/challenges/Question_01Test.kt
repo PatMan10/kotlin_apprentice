@@ -1,8 +1,8 @@
 package com.g_corp.kotlin_apprentice.chapter_11.challenges
 
-import com.g_corp.kotlin_apprentice.chapter_11.models.FullName
-import com.g_corp.kotlin_apprentice.chapter_11.models.MovieList
-import com.g_corp.kotlin_apprentice.chapter_11.models.User
+import com.g_corp.kotlin_apprentice.chapter_11.challenges.question_01.models.FullName
+import com.g_corp.kotlin_apprentice.chapter_11.challenges.question_01.models.MovieList
+import com.g_corp.kotlin_apprentice.chapter_11.challenges.question_01.models.User
 import org.junit.Assert
 import org.junit.Test
 

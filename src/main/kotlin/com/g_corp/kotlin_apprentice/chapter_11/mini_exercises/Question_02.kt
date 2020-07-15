@@ -1,6 +1,6 @@
 package com.g_corp.kotlin_apprentice.chapter_11.mini_exercises
 
-import com.g_corp.kotlin_apprentice.chapter_11.models.Person
+import com.g_corp.kotlin_apprentice.chapter_11.mini_exercises.models.Person
 
 fun main(args: Array<String>) {
     println("Mini Exercise")

@@ -1,4 +1,4 @@
-package com.g_corp.kotlin_apprentice.chapter_11.models
+package com.g_corp.kotlin_apprentice.chapter_11.challenges.question_01.models
 
 class User(
     val name: FullName,
