@@ -5,7 +5,7 @@ import org.junit.Test
 
 public class Question_01Test {
     @Test
-    fun testSomething() {
+    fun testInheritanceInitialisation() {
         val a = A()
         val b = B()
         val c = C()
