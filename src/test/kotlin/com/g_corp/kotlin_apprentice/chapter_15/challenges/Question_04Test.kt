@@ -5,7 +5,14 @@ import org.junit.Test
 
 public class Question_04Test {
     @Test
-    fun testSomething() {
-        Assert.assertEquals(1, 1)
+    fun testSealedClasses() {
+        val loading = Resource.Loading()
+        val success = Resource.Success("Operation successfull. :)")
+        val error = Resource.Error("Operation failed. :(")
+        Assert.assertTrue(loading is Resource.Loading)
+        Assert.assertTrue(success is Resource.Success)
+        Assert.assertTrue(error is Resource.Error)
+        Assert.assertEquals("Operation successfull. :)", success.message)
+        Assert.assertEquals("Operation failed. :(", error.message)
     }
 }
