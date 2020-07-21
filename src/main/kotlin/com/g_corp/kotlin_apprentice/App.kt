@@ -1,11 +1,19 @@
 package com.g_corp.kotlin_apprentice
 
-import com.g_corp.kotlin_apprentice.chapter_14.mini_exercises.MyMath
+enum class DayOfWeek(val isWeekend: Boolean = false) {
+    Monday,
+    Tuesday,
+    Wednesday,
+    Thursday,
+    Friday,
+    Saterday(true),
+    Sunday(true);
+
+    fun print() {
+        println("${this.ordinal}: ${this.name} is weekend: ${this.isWeekend}")
+    }
+}
 
 fun main(args: Array<String>) {
-    fun MyMath.Companion.add(a: Int, b: Int) = a + b
-    fun MyMath.Companion.multiply(a: Int, b: Int) = a * b
-
-    println(MyMath.add(1, 2))
-    println(MyMath.multiply(2, 2))
+    println("${DayOfWeek.Monday}")
 }
