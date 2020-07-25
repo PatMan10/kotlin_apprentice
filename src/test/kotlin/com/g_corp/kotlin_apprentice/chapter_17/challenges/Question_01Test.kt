@@ -5,7 +5,11 @@ import org.junit.Test
 
 public class Question_01Test {
     @Test
-    fun testSomething() {
-        Assert.assertEquals(1, 1)
+    fun testTiger() {
+        val tiger = Tiger(5)
+        Assert.assertTrue(
+            Regex("I eat").containsMatchIn(tiger.feed(Food.Meat))
+        )
+        Assert.assertEquals(0, tiger.hungerLevel)
     }
 }
