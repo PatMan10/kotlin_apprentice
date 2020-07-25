@@ -1,5 +1,7 @@
 package com.g_corp.kotlin_apprentice.chapter_17.challenges
 
+import com.g_corp.kotlin_apprentice.chapter_17.challenges.question_01.classes.Tiger
+import com.g_corp.kotlin_apprentice.chapter_17.challenges.question_01.enums.Food
 import org.junit.Assert
 import org.junit.Test
 
