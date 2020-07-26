@@ -2,9 +2,9 @@ package com.g_corp.kotlin_apprentice.chapter_12.challenges
 
 import com.g_corp.kotlin_apprentice.chapter_12.challenges.question_02.models.FullName
 import com.g_corp.kotlin_apprentice.chapter_12.challenges.question_02.models.Student
+import com.g_corp.kotlin_apprentice.chapter_12.challenges.question_02.utils.JsonKey
 import org.junit.Assert
 import org.junit.Test
-import com.g_corp.kotlin_apprentice.chapter_12.challenges.question_02.utils.Constant as C
 
 public class Question_02Test {
     @Test
@@ -29,9 +29,9 @@ public class Question_02Test {
         Assert.assertEquals("Last", student_1.name.last)
 
         val studentMap_2 = mapOf(
-            C.JsonKey.FIRST_NAME to "Patrick",
-            C.JsonKey.MIDDLE_NAME to "Jr.",
-            C.JsonKey.LAST_NAME to "Heynes"
+            JsonKey.FIRST_NAME to "Patrick",
+            JsonKey.MIDDLE_NAME to "Jr.",
+            JsonKey.LAST_NAME to "Heynes"
         )
         val student_2 = Student.loadStudent(studentMap_2)
         Assert.assertEquals("Patrick", student_2.name.first)

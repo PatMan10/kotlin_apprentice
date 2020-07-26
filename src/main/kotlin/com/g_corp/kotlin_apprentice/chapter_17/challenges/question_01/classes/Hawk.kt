@@ -2,13 +2,13 @@ package com.g_corp.kotlin_apprentice.chapter_17.challenges.question_01.classes
 
 import com.g_corp.kotlin_apprentice.chapter_17.challenges.question_01.enums.Food
 import com.g_corp.kotlin_apprentice.chapter_17.challenges.question_01.enums.Motion
+import com.g_corp.kotlin_apprentice.chapter_17.challenges.question_01.interfaces.Airborne
 import com.g_corp.kotlin_apprentice.chapter_17.challenges.question_01.interfaces.Animal
-import com.g_corp.kotlin_apprentice.chapter_17.challenges.question_01.interfaces.Land
 import kotlin.properties.Delegates
 
-class Tiger(
+class Hawk(
     val aHungerLevel: Int
-) : Animal, Land {
+) : Animal, Airborne {
     override val name: String = this.javaClass.simpleName
     override var hungerLevel by Delegates.vetoable(
         aHungerLevel,
@@ -27,21 +27,21 @@ class Tiger(
             "${this.name} no eat $food."
     }
 
-    override fun walk(): String {
-        val walk = Motion.Walk
-        return if (this.hasEnoughEnergyTo(walk)) {
-            this.hungerLevel += walk.energyCost
-            "${this.name} ${walk.name}s."
+    override fun fly(): String {
+        val fly = Motion.Fly
+        return if (this.hasEnoughEnergyTo(fly)) {
+            this.hungerLevel += fly.energyCost
+            "${this.name} ${fly.name}s."
         } else
-            "${this.name} too hungry to ${walk.name}."
+            "${this.name} too hungry to ${fly.name}."
     }
 
-    override fun run(): String {
-        val run = Motion.Run
-        return if (this.hasEnoughEnergyTo(run)) {
-            this.hungerLevel += run.energyCost
-            "${this.name} ${run.name}s."
+    override fun land(): String {
+        val land = Motion.Land
+        return if (this.hasEnoughEnergyTo(land)) {
+            this.hungerLevel += land.energyCost
+            "${this.name} ${land.name}s."
         } else
-            "${this.name} too hungry to ${run.name}."
+            "${this.name} too hungry to ${land.name}."
     }
 }
